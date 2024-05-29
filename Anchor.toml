@@ -1,8 +1,9 @@
 [toolchain]
 
 [features]
-resolution = true
+resolution = false
 skip-lint = false
+seeds = false
 
 [programs.localnet]
 solana_nft_anchor = "8id7EM6BhrJgDFnotRyNTYWbEX2pSAhq3WEb76we1kCB"
@@ -11,7 +12,7 @@ solana_nft_anchor = "8id7EM6BhrJgDFnotRyNTYWbEX2pSAhq3WEb76we1kCB"
 url = "https://api.apr.dev"
 
 [provider]
-cluster = "Localnet"
+cluster = "devnet"
 wallet = "~/.config/solana/id.json"
 
 [scripts]
